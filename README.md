@@ -57,3 +57,8 @@ See file [test.http](test.http) for testing the servers
 
 See [Youtube video](https://youtu.be/yNrqlxn0nc0) and article [Create a Vue.js 3 App with JSON Server and Axios](https://developer.school/how-to-use-vue-js-json-server-and-axios) by Paul Halliday (2021-10-16)
 and the Github repo [developer-school/how-to-use-vue-js-json-server-and-axios](https://github.com/developer-school/how-to-use-vue-js-json-server-and-axios)
+
+### TODO Plan
+
+Watch the former video and then [FREE API Hosting! Easy Serverless APIs with Netlify Functions & JavaScript!
+](https://youtu.be/vEFJZ9rSSNM)
