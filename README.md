@@ -13,6 +13,8 @@ Pricing: <https://my-json-server.typicode.com/pricing>
 * 5 max REST endpoints
 * 30 max items per endpoint
 
+See the [guide](https://jsonplaceholder.typicode.com/guide/)
+
 ## Usage 
 
 ```
