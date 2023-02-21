@@ -1,4 +1,9 @@
+# JSON Server
+
 See <https://github.com/typicode/json-server> for more information.
+
+
+## Demo in the cloud for testing
 
 and <https://jsonplaceholder.typicode.com/> for a demon in the cloud hosted in Heroku 
 
@@ -8,6 +13,7 @@ Pricing: <https://my-json-server.typicode.com/pricing>
 * 5 max REST endpoints
 * 30 max items per endpoint
 
+## Usage 
 
 ```
 ➜  json-server-learning json-server --help   
@@ -42,3 +48,12 @@ Ejemplos:
   json-server --host 0.0.0.0 --watch db.json
 
 ```
+
+## Tests
+
+See file [test.http](test.http) for testing the servers
+
+## API Driven Application with Vue.js, JSON-Server and Axios
+
+See [Youtube video](https://youtu.be/yNrqlxn0nc0) and article [Create a Vue.js 3 App with JSON Server and Axios](https://developer.school/how-to-use-vue-js-json-server-and-axios) by Paul Halliday (2021-10-16)
+and the Github repo [developer-school/how-to-use-vue-js-json-server-and-axios](https://github.com/developer-school/how-to-use-vue-js-json-server-and-axios)
