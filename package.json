@@ -10,7 +10,7 @@
     "routes": "node routes",
     "gh": "json-server --host 0.0.0.0 --watch gh-config.json"
   },
-  "keywords": [],
+  "keywords": ["json-server"],
   "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
   "license": "ISC",
   "dependencies": {

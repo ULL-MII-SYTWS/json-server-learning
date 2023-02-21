@@ -17,6 +17,14 @@
       "id": 1,
       "body": "some comment",
       "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "inserted via post using router",
+      "author": {
+        "name": "Casiano"
+      },
+      "postId": 2
     }
   ],
   "profile": {

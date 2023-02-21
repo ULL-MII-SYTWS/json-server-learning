@@ -1,16 +1,22 @@
 // Install REST Client VSCode extension to use this file for testing
+@host=http://localhost:3000
 // Using npm run start
-get http://localhost:3000/posts/
+get {{ host }}/posts/
+
+###
+GET {{ host }}/posts?title=json-server&author=typicode
 
 ### 
-get http://localhost:3000/comments
+get {{ host }}/comments
 
-// npm run routes to test routes.js
-### 
-get http://localhost:3000/echo?message=hello
+###
+GET {{host}}/comments?author.name=Casiano
 
 ### 
-post http://localhost:3000/posts
+get {{ host }}/echo?message=hello
+
+### 
+post {{ host }}/posts
 Content-Type: application/json
 
 { 
@@ -21,9 +27,9 @@ Content-Type: application/json
 
 // testing npm run gh. The db is gh-config.json
 ###
-GET http://localhost:3000/aliases
+GET {{ host }}/aliases
 Content-Type: application/json
 
 ###
-GET http://localhost:3000/extensions
+GET {{ host }}/extensions
 Content-Type: application/json
