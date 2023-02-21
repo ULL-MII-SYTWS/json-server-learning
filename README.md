@@ -1,5 +1,14 @@
 See <https://github.com/typicode/json-server> for more information.
 
+and <https://jsonplaceholder.typicode.com/> for a demon in the cloud hosted in Heroku 
+
+Pricing: <https://my-json-server.typicode.com/pricing>
+
+* 10KB db.json max
+* 5 max REST endpoints
+* 30 max items per endpoint
+
+
 ```
 ➜  json-server-learning json-server --help   
 json-server [options] <source>
