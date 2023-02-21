@@ -1,8 +1,29 @@
-get http://localhost:3000/posts/1
+// Install REST Client VSCode extension to use this file for testing
+
+get http://localhost:3000/posts/
 
 ### 
 get http://localhost:3000/comments
 
+// for routes.js
+### 
+get http://localhost:3000/echo?message=hello
+
+### 
+post http://localhost:3000/posts
+Content-Type: application/json
+
+{ 
+  "id": 2, 
+  "title": "Spanish Queen", 
+  "author": "Ferdinand" 
+}
+
+// db is gh-config.json
 ###
-GET http://localhost:3000/db
+GET http://localhost:3000/aliases
+Content-Type: application/json
+
+###
+GET http://localhost:3000/extensions
 Content-Type: application/json

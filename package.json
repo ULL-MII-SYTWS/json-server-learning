@@ -1,0 +1,17 @@
+{
+  "name": "json-server-learning",
+  "version": "1.0.0",
+  "description": "https://github.com/typicode/json-server",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo Install REST Client extension for VSCode. See file test.http for testing the server",
+    "start": "json-server --host 0.0.0.0 --watch db.json",
+    "server": "node server"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

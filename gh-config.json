@@ -1,8 +1,10 @@
 {
-  "git_protocol": "https",
-  "editor": "/usr/bin/vi",
-  "prompt": "enabled",
-  "pager": "cat",
+  "config": {
+    "git_protocol": "https",
+    "editor": "/usr/bin/vi",
+    "prompt": "enabled",
+    "pager": "cat"
+  },
   "aliases": {
     "co": "pr checkout",
     "get-repos": "api /orgs/$1/repos",
@@ -39,6 +41,8 @@
     "repo-issues-get": "api graphql -f \"name=$2\" -f \"owner=$1\" --paginate -f 'query=                                                                                                   \nquery ($owner: String!, $name: String!, $endCursor: String) {\n  repository(name: $name, owner: $owner) {\n    issues(first: 100, after: $endCursor) {\n      nodes {\n        author {\n          login\n        }\n        title\n        body\n      }\n      pageInfo {\n        hasNextPage\n        endCursor\n      }\n    }\n  }\n}' --jq '.data.repository.issues.nodes[] | { author: .author[\"login\"], title, body }'\n",
     "org-repos-list": "api \"orgs/$1/repos\" --paginate -t \"{{ range . }}{{ .name }}\n{{end}}\"\n"
   },
-  "current-org": "ULL-ESIT-PL-2223",
-  "current-lab": "aprender-markdown"
+  "extensions": {
+    "current-org": "ULL-ESIT-PL-2223",
+    "current-lab": "aprender-markdown"
+  }
 }
