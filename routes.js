@@ -25,5 +25,9 @@ server.use((req, res, next) => {
 // Use default router
 server.use(router)
 server.listen(3000, () => {
-  console.log('JSON Server is running')
+  console.log(`
+JSON Server is running at port http://localhost:3000
+  Check requests:
+  - post http://localhost:3000/posts
+`)
 })

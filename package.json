@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo Install REST Client extension for VSCode. See file test.http for testing the server",
     "start": "json-server --host 0.0.0.0 --watch db.json",
-    "server": "node server"
+    "server": "node server",
+    "routes": "node routes",
+    "gh": "json-server --host 0.0.0.0 --watch gh-config.json"
   },
   "keywords": [],
   "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
